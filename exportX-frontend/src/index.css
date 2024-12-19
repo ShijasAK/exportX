@@ -1,0 +1,97 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/bootstrap5.css";
+@import "../node_modules/@syncfusion/ej2-icons/styles/fluent.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/bootstrap5.css";
+@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/bootstrap5.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/bootstrap5.css";
+@import "../node_modules/@syncfusion/ej2-lists/styles/bootstrap5.css";
+@import "../node_modules/@syncfusion/ej2-navigations/styles/bootstrap5.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/bootstrap5.css";
+@import "../node_modules/@syncfusion/ej2-richtexteditor/styles/bootstrap5.css";
+
+.e-rte-toolbar,
+.e-toolbar-items,
+.e-toolbar-item,
+.e-icon-btn {
+  background-color: #edf3ff !important;
+}
+.e-active .e-icon-btn {
+  background-color: #90a2f8 !important;
+}
+
+* {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* .form-select__menu-portal {
+  z-index: 1;
+  position: absolute;
+  top: 36px;
+  left: 0;
+} */
+
+.icon-mr-xs > span {
+  margin-right: 5px;
+}
+
+.custom-popover > .chakra-popover__popper {
+  z-index: 9999;
+}
+
+.filter-popover > .chakra-popover__popper > .chakra-popover__content {
+  width: 390px !important;
+}
+
+.e-active > button {
+  background: linear-gradient(
+    66.09deg,
+    rgba(144, 162, 248, 0.4) 35.22%,
+    rgba(23, 88, 255, 0.4) 67.66%
+  ) !important;
+}
+.chakra-popover__popper {
+  z-index: 9999999 !important;
+}
+
+.chakra-input__group {
+  padding: 1px;
+}
+
+.switch-active > .chakra-switch__track > .chakra-switch__thumb {
+  background-color: #c90016 !important;
+}
+
+.switch-inactive > .chakra-switch__track > .chakra-switch__thumb {
+  background-color: #707070 !important;
+}
+
+.chakra-switch__track {
+  background-color: #ececec !important;
+}
+
+.text-input-canvas {
+ /* bootstrap like text input css */
+
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  /* bootstrap like text input css */
+}
+
+
+.table-avatar > .chakra-avatar__initials {
+  font-size: 13px;
+}
+.collapse-text{
+  font-size: 12px !important;
+}
